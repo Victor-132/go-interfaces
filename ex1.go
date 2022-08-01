@@ -1,4 +1,4 @@
-package main
+package ex1
 
 import "fmt"
 
@@ -15,7 +15,7 @@ type triangle struct {
 	base   float64
 }
 
-func main() {
+func ex1() {
 	s := square{sideLength: 4.62}
 	t := triangle{height: 5.25, base: 2.5}
 
